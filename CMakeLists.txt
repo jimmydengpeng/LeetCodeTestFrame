@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(main)
+aux_source_directory(. main_src_list)
+add_subdirectory(src)
+add_executable(main ${main_src_list})
+target_link_libraries(main src)

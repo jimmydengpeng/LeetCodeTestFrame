@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (test)
+# add_subdirectory(utl)
+aux_source_directory(. src_list)
+add_executable(test ${src_list})
+# target_link_libraries(main utl)

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Jimmy/Desktop/LeetCode/testCMake/src/head2.c
+stdio.h
+-
+head2.h
+/Users/Jimmy/Desktop/LeetCode/testCMake/src/head2.h
+
+/Users/Jimmy/Desktop/LeetCode/testCMake/src/head2.h
+

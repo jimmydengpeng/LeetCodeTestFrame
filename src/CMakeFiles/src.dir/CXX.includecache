@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Jimmy/Desktop/LeetCode/src/frame.cpp
+frame.h
+/Users/Jimmy/Desktop/LeetCode/src/frame.h
+vector
+-
+
+/Users/Jimmy/Desktop/LeetCode/src/frame.h
+unistd.h
+-
+getopt.h
+-
+util.h
+/Users/Jimmy/Desktop/LeetCode/src/util.h
+
+/Users/Jimmy/Desktop/LeetCode/src/util.h
+iostream
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+cmath
+-
+
